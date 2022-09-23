@@ -99,7 +99,7 @@ section {
 
   .sectionContent {
     display: flex;
-    margin-top: 140px;
+    margin-top: 80px;
     margin-left: 242px;
 
     .content {
@@ -157,6 +157,10 @@ section {
 
   .darkTheme {
     background: $base-dark;
+    transition: background 0.4s;
+    .sectionSlider{
+      display: none;
+    }
   }
 
   .lightTheme {
@@ -166,6 +170,14 @@ section {
     .sectionHeader {
       .link {
         color: $base-dark-font;
+      }
+      &-top{
+        .topIcon{
+          transition: all 0.4s;
+          path{
+            fill: #23262C;
+          }
+        }
       }
     }
 

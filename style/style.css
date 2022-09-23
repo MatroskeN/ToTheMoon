@@ -87,7 +87,7 @@ section .sectionFootNote span {
 }
 section .sectionContent {
   display: flex;
-  margin-top: 140px;
+  margin-top: 80px;
   margin-left: 242px;
 }
 section .sectionContent .content {
@@ -138,6 +138,10 @@ section .sectionContent .content .order svg {
 
 .darkTheme {
   background: #0F1011;
+  transition: background 0.4s;
+}
+.darkTheme .sectionSlider {
+  display: none;
 }
 
 .lightTheme {
@@ -146,6 +150,12 @@ section .sectionContent .content .order svg {
 }
 .lightTheme .sectionHeader .link {
   color: #23262C;
+}
+.lightTheme .sectionHeader-top .topIcon {
+  transition: all 0.4s;
+}
+.lightTheme .sectionHeader-top .topIcon path {
+  fill: #23262C;
 }
 .lightTheme .sectionFootNote {
   color: #23262C;

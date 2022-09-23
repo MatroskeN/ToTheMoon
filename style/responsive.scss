@@ -11,7 +11,7 @@
       }
     }
     .sectionContent{
-      margin-top: 49px;
+      margin-top: 80px;
       .content{
         .size{
           font-size: 110px;
@@ -33,9 +33,6 @@
   }
 
   .lightTheme{
-    .sectionContent{
-      margin-top: 10px;
-    }
     .sectionSlider{
       margin-top: 65px;
     }
@@ -86,8 +83,8 @@
     .sectionContent{
       flex-direction: column;
       width: 100%;
-      margin: 78px 0 0 0;
       padding: 0 26px 0 21px;
+      margin-left: 0;
 
       .divide{
         width: 100%;
@@ -105,16 +102,12 @@
       }
     }
   }
-  .lightTheme{
-    .sectionContent{
-      margin-top: 0;
-    }
-  }
 }
 
 @media(max-width: 769px){
   section{
     .sectionContent{
+      margin-top: 60px;
       .content{
         flex-direction: column;
         margin-left: 0;
@@ -134,8 +127,11 @@
     }
   }
   .lightTheme{
+    .sectionContent{
+      margin-top: 60px;
+    }
     .sectionSlider{
-      margin-top: 120px;
+      margin-top: 80px;
     }
   }
 }
@@ -146,7 +142,7 @@
       margin-top: 78px;
     }
     .sectionContent{
-      margin-top: 67px;
+      margin-top: 45px;
       .divide{
         height: 3px;
       }
@@ -160,8 +156,11 @@
     }
   }
   .lightTheme{
+    .sectionContent{
+      margin-top: 45px;
+    }
     .sectionSlider{
-      margin-top: 88px;
+      margin-top: 60px;
       .range__slider [type=range]{
         height: 3px;
       }
@@ -207,6 +206,11 @@
           }
         }
       }
+    }
+  }
+  .lightTheme{
+    .sectionContent{
+      margin-top: 37px;
     }
   }
 }
